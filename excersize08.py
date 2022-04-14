@@ -3,6 +3,8 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
+# Code for code review
+
 
 # Remove stopwords, non alphabetical words and characters, punctuation, smaller than three characters
 def cleantext(text, stopwords, wordlength):
